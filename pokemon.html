@@ -1,14 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: black;
+            height: 80px;
+            width: 100%;
+        }
+
+        header h1{
+            color: white;
+            position: absolute;
+            padding: 20px 0px 0px 50px;
+        }
+
+header ul{
+    position: absolute;
+    right:5vw;
+    /* top: 0; */
+    line-height: 80px;
+}
+
+        header li{
+            display: inline;
+margin-left: 3vw;
+        }
+
+        header a{
+            color: white;
+            text-decoration: none;
+        }
+
+        header a:hover{
+            text-decoration: underline white;
+        }
+
+        footer{
+          color: white;
+
+            background-color: black;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>皮卡丘</h1>
+    <header>
+        <nav>
+            <h1>皮卡丘</h1>
+            <ul style="list-style: none;">
+                <li><a href="https://tw.portal-pokemon.com/play/pokedex" target="_blank">圖鑑</a></li>
+                <li><a href="https://tw.portal-pokemon.com/special/hot_info/pokemoncenter_taipei/" target="_blank">寶可夢中心</a></li>
+                <li><a href="https://tw.portal-pokemon.com/game/" target="_blank">遊戲專區</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Nintendo. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
